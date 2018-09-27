@@ -7,7 +7,12 @@
 </ion-header>
 
 <ion-content padding>
-    
+    <ion-list>
+       <ion-item>
+         <ion-label floating>Dirección</ion-label>
+         <ion-input type="text"></ion-input>
+       </ion-item>
+    </ion-list>
     <agm-map [latitude]="lat" [longitude]="lng" [zoom]="14">
       <agm-marker [latitude]="lat" [longitude]="lng">
         <agm-info-window>
