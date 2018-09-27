@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Taller 2
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    
+    <agm-map [latitude]="lat" [longitude]="lng" [zoom]="14">
+      <agm-marker [latitude]="lat" [longitude]="lng">
+        <agm-info-window>
+          <strong>Tu posición</strong>
+        </agm-info-window>
+      </agm-marker>
+    </agm-map>
+ 
+</ion-content>
