@@ -1,0 +1,17 @@
+<app-navbar></app-navbar>
+<div class="container p-4">
+  <div class="row">
+    <nav>
+      <a [routerLink]="['/marca']">Marcar Zona</a>
+        -
+      <a [routerLink]="['/direccion']">Dirección</a>
+       -
+      <a [routerLink]="['/sitio']">Elegir Sitio</a>
+       
+    </nav>
+    
+    <div class="col-md-10">   
+      <router-outlet></router-outlet>
+    </div>
+</div>
+
